@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
+
 .container-bcg{
     background-image: url('Images/Home\ page/bcg.webp');
     opacity: 0.8;
@@ -47,13 +49,29 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     align-items: center;
 
 }
+
 .horizontal-para{
     padding: 0px 30px;
-    margin: 50px 0px;
+    margin: 70px 0px;
+  
+    display: flex;
+    justify-content: space-evenly;
 }
-.personalise-learning{
-    width: 200px;
+.Better-carrer{
+    width: 210px;
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
 
+}
+.Better-carrer img{
+    margin-bottom: 30px;
+}
+.Better-carrer .details{
+    text-align: center;
+    font-size: x-large;
+}
+.Better-carrer .details p{
+    text-align: center;
+    font-size:medium;
 }
