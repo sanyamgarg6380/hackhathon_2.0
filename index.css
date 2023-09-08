@@ -59,6 +59,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .Better-carrer{
     width: 210px;
@@ -123,5 +124,16 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     justify-content: flex-end;
 }
 .full{
-    background-color:rgba(0,0,0,0.5);
+   background-color: lightblue;
+}
+@media(max-width:990px) {
+    .navbar-brand{
+        visibility: hidden;
+    }
+    .container-bcg{
+        height: 800px;
+        align-items: center;
+    }
+   
+    
 }
