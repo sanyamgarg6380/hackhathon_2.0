@@ -49,6 +49,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     align-items: center;
 
 }
+.review-section{
+    height: 200px;
+}
 
 .horizontal-para{
     padding: 0px 30px;
