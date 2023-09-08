@@ -119,3 +119,6 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     align-items: flex-end;
     justify-content: flex-end;
 }
+.full{
+    background-color: lightblue;
+}

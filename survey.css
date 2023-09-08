@@ -1,5 +1,7 @@
 .full{
-    background-color: #c08686;
+    /* background-color: #c08686; */
+    background-image: url('/Images/Survey page/bcgr.jpg');
+    background-size: cover;
 }
 
 .survey{
@@ -9,6 +11,7 @@
     padding: 10px 40px;
     background-color: rgba(0,0,0,0.5);
     border-radius: 30px;
+    box-shadow: 10px 10px 10px;
     
     
 }
@@ -24,4 +27,15 @@
     margin: 20px 10px;
     margin-top: 50px;
     text-align: center;
+}
+
+.gender{
+    font-weight: 500;
+    font-size: large;
+    color: white;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
