@@ -1,9 +1,16 @@
+.full{
+    background-color: #c08686;
+}
+
 .survey{
     border: 2px solid black;
-    margin: 30px 0px;
-    background-color: black;
-    opacity: 0.9;
+    margin: 60px 120px;
+ 
     padding: 10px 40px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 30px;
+    
+    
 }
 .gender{
     font-weight: 350;
@@ -12,4 +19,9 @@
     font-weight: 500;
     font-size: 1.25rem;
     color: white;
+}
+.heading{
+    margin: 20px 10px;
+    margin-top: 50px;
+    text-align: center;
 }
