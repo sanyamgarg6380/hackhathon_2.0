@@ -4,8 +4,46 @@
 }
 .container-bcg{
     background-image: url('Images/Home\ page/bcg.webp');
-    opacity: 0.9;
+    opacity: 0.8;
     width: 100%;
     height:500px;
     background-size: cover;
+}
+.container-bcg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+.para-learning{
+    margin: 0px 20px;
+    width: 25%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.h2-para{
+    color: #fffefd;
+    font-size: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.para-span{
+    color:rgb(11, 11, 11);
+ 
+}
+.container-para{
+    color: #eee2de;
+    font-size: 20px;
+}
+.container-button{
+    margin: 0px 40px;
+    height: 100px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
