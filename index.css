@@ -47,3 +47,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     align-items: center;
 
 }
+.personalise-learning{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
