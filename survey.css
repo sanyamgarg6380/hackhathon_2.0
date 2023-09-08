@@ -1,0 +1,12 @@
+.survey{
+    border: 2px solid black;
+    margin: 30px 0px;
+    padding: 10px 40px;
+}
+.gender{
+    font-weight: 350;
+}
+.name{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
