@@ -78,3 +78,44 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 .Better-carrer img{
     border-radius: 50%;
 }
+.foot{
+    background-color: #ba704f;
+    height:70px;
+    display: flex
+    ;
+    justify-content: flex-start;
+
+}
+.foot .about{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 40%;
+}
+.icons{
+    padding: 20px 0px;
+    flex: 1;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons a {
+    text-decoration: none;
+    color: white;
+}
+.icons a i{
+    font-size: 20px;
+}
+.
+.icons a i:hover{
+    font-size: 29px;
+}
+.foot .copy{
+    width: 35%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
