@@ -120,5 +120,5 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     justify-content: flex-end;
 }
 .full{
-    background-color: lightblue;
+    background-color:rgba(0,0,0,0.5);
 }
