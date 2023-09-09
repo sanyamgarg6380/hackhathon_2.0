@@ -11,8 +11,8 @@
 }
 .cbtn{
    
-    width: 140px;
-    margin: 2vh 1vw;
+    width: 150px;
+    margin: 2vh 2vw;
 
    
 }
@@ -102,6 +102,9 @@ button:hover{
 }
 
 #CLASS1{
+    position: absolute;
+}
+#CLASS3{
     position: absolute;
 }
 
