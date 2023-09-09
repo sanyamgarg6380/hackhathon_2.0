@@ -101,5 +101,6 @@ button:hover{
     padding-left: 5vw;
 }
 
-
-
+#CLASS1{
+    position: absolute;
+}
