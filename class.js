@@ -23,3 +23,16 @@ otherCheckbox2.addEventListener("change", () => {
     otherText2.style.visibility = "hidden";
   }
 });
+
+const otherCheckbox3 = document.querySelector("#class_3");
+const otherText3 = document.querySelector("#CLASS3");
+otherText3.style.visibility = "hidden";
+
+otherCheckbox3.addEventListener("change", () => {
+  if (otherCheckbox3.checked) {
+    otherText3.style.visibility = "visible";
+    //otherText.value = "";
+  } else {
+    otherText3.style.visibility = "hidden";
+  }
+});
