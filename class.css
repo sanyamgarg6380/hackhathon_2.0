@@ -48,9 +48,9 @@ button:hover{
     scale: 1.25;
     transition: 0.5s ease;
 }
-/* .checkbox{
-    visibility: hidden;
-} */
+.checkbox{
+    display: none;
+}
 
 .iclass1{
     padding: 0px 20px;
