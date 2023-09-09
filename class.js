@@ -36,3 +36,30 @@ otherCheckbox3.addEventListener("change", () => {
     otherText3.style.visibility = "hidden";
   }
 });
+
+const otherCheckbox4 = document.querySelector("#class_4");
+const otherText4 = document.querySelector("#CLASS4");
+otherText4.style.visibility = "hidden";
+
+otherCheckbox4.addEventListener("change", () => {
+  if (otherCheckbox4.checked) {
+    otherText4.style.visibility = "visible";
+    //otherText.value = "";
+  } else {
+    otherText4.style.visibility = "hidden";
+  }
+});
+
+
+const otherCheckbox5 = document.querySelector("#class_5");
+const otherText5 = document.querySelector("#CLASS5");
+otherText5.style.visibility = "hidden";
+
+otherCheckbox5.addEventListener("change", () => {
+  if (otherCheckbox5.checked) {
+    otherText5.style.visibility = "visible";
+    //otherText.value = "";
+  } else {
+    otherText5.style.visibility = "hidden";
+  }
+});
