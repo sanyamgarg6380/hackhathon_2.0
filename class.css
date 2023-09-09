@@ -13,7 +13,7 @@
    
     width: 140px;
     margin: 2vh 1vw;
-   
+
    
 }
 .heading-class{
@@ -99,6 +99,10 @@ button:hover{
     text-shadow: 1px 1px 0px;
     text-align: left;
     padding-left: 5vw;
+}
+
+#CLASS1{
+    position: absolute;
 }
 
 
